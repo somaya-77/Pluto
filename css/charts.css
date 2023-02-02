@@ -1,0 +1,43 @@
+div.content {
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2%;
+}
+div.content h2 {
+    font-weight: 600;
+}
+div.content .item .title {
+    padding: 25px 35px 22px 38px;
+    border-bottom: solid #f3f3f3 2px;
+
+}
+div.content .item .title h3 {
+    font-size: 21px;
+    font-weight: 400;
+    color: #15283c;
+}
+div.content .item {
+    width: 49%;
+    background-color: #fff;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    box-shadow: 1px 0 5px rgb(0 0 0 / 10%);
+}
+div.content .item .img {
+    padding: 35px;
+}
+div.content .item img {
+    width: 100%;
+}
+
+footer  {
+    width: 95%;
+    background-color: #fff;
+    border-radius: 5px;
+    margin: 30px auto;
+    padding: 17px 0;
+    box-shadow: 1px 0 5px rgb(0 0 0 / 10%);
+}
+

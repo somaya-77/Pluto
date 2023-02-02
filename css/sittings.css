@@ -1,0 +1,94 @@
+section.message .dash-home h2{
+    font-weight: 600;
+}
+.container-message {
+    width: 95%;
+    margin: 0 auto;
+    gap: 2%;
+    display: flex;
+}
+.left-message {
+    width: 44%;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    box-shadow: 0 5px 20px rgb(0 0 0 / 5%);
+}
+.left-message h3,
+.calender h3 {
+    font-weight: 500;
+}
+.left-message .left img{
+    width: 60px !important;
+}
+.left-message .left {
+    width: 80%;
+}
+.left-message .left p {
+    width: 100%;
+}
+/* //////////////// */
+.calender {
+    width: 54%;
+    height: fit-content;
+    border-radius: 5px;
+    box-shadow: 0 5px 20px rgb(0 0 0 / 5%);
+}
+.calender .month {
+    width: 100%;
+    background-color: var(--green-color);
+    color: #fff;
+    font-weight: 600;
+    font-size: 21;
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.calender table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+}
+.calender table th {
+    background-color: #666;
+    color: #fff;
+    font-weight: 400;
+    padding: 15px 0;
+}
+.calender table tr:not(:first-child){
+    border-top: 1px solid #dee2e6;
+}
+.calender table tr{
+    text-align: center;
+}
+.calender table td {
+    padding: 13px 0;
+    color: #898989;
+}
+.calender table td.opacity {
+    opacity: 0.5;
+}
+/* /////////////////////////////////////// */
+section.feed{
+    width: 95%;
+    margin: 0 auto 30px;
+    gap: 2%;
+    display: flex;
+}
+.update, .daily, .comments {
+    width: 31.8%;
+    border-radius: 5px;
+    box-shadow: 0 5px 20px rgb(0 0 0 / 5%);
+}
+.update h3, .daily h3, .comments h3 {
+    font-weight: 500;
+}
+.update .person, .daily .person, .comments .person {
+    padding: 19px;
+}
+
+/* ////////////////////////////// */
+section.social-se {
+    width: 95%;
+    margin: 0 auto 30px;
+}

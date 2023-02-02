@@ -1,0 +1,46 @@
+.gallery {
+    width: 95%;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+.gallery .title {
+    padding: 18px 25px 15px;
+    width: 100%;
+    border-bottom: solid #f3f3f3 2px;
+}
+
+.gallery .title h3 {
+    font-size: 21px;
+    font-weight: 400;
+
+    color: #15283c;
+}
+.content-gallery {
+    border-radius: 5px;
+    box-shadow: 0 5px 20px rgb(0 0 0 / 5%);
+    
+}
+.content-gallery div.g {
+    padding: 35px 0;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.item-card {
+    width: 22%;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+.item-card img {
+    width: 100%;
+}
+.item-card p {
+    text-align: center;
+    background-color: #15283c;
+    color: #fff;
+    margin-top: -7px;
+    padding: 15px 0;
+    border-top: 2px solid #1ed085;
+}

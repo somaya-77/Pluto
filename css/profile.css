@@ -1,0 +1,53 @@
+.prof {
+    background-color: #fff;
+    width: 70%;
+    margin: 0 auto;
+    box-shadow: 1px 0 5px rgb(0 0 0 / 10%);
+    border-radius: 5px;
+}
+
+.prof .title {
+    padding: 18px 25px 15px;
+    width: 100%;
+    border-bottom: solid #f3f3f3 2px;
+}
+.prof .title h3 {
+    font-size: 21px;
+    font-weight: 400;
+    color: #15283c;
+}
+
+.contain {
+    padding: 35px;
+    display: flex;
+
+}
+
+.contain img {
+    border-radius: 50%;
+    width: 200px;
+    margin-right: 35px;
+}
+
+.contain h3 {
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #455a64;
+}
+.contain p {
+    color: #58718a;
+    font-size: 14px;
+    line-height: 21px;
+}
+.contain span {
+    margin-left: 5px;
+    font-size: 14px;
+    color: #58718a;
+}
+.progres {
+    width: 530px;
+}
+.loading {
+    margin: 0;
+}
